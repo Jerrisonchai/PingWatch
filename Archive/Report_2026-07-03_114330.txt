@@ -1,0 +1,28 @@
+========================================================================================== 
+                                     SYSTEM RUN REPORT                                     
+========================================================================================== 
+ABOUT THIS SCAN:                                                                           
+This automated tool reads a list of targets and verifies their status:                     
+ - WEBSITES: It "knocks" on the web page to ensure it actually loads.                      
+ - FOLDERS : It tries to access the directory path to ensure it exists.                    
+ - SERVERS : It sends a network 'ping' (an electronic echo) to confirm                     
+             the machine is awake, plugged in, and responding.                             
+ - SAFETY  : Read-only (Ping, Curl, If Exist). Low RAM, zero risk of data deletion.        
+========================================================================================== 
+Date : 2026-07-03 Time : 11:43:30                 
+========================================================================================== 
+STATUS | DESCRIPTION                              | TARGET (Server / Folder / URL)       
+------------------------------------------------------------------------------------------ 
+[OK]   | [Working Public Website]                 | https://www.google.com
+[OK]   | [Working Local Folder]                   | C:\Windows
+[OK]   | [Working Localhost Ping]                 | 127.0.0.1
+[FAIL] | [Failing Fake IP Address]                | 192.0.999.99
+[FAIL] | [Failing Network Folder]                 | \\FakeServer01\SecretData
+[FAIL] | [Failing Internal Website]               | http://this-website-is-fake.local
+------------------------------------------------------------------------------------------ 
+SUMMARY: Total Checked: 6  |  Success: 3  |  Failed: 3                 
+HEALTH : 50% 
+SYSTEM : CRITICAL WARNING. We are operating on life support. 
+         The network is currently held together by duct tape. 
+         Sound the alarm. 
+========================================================================================== 
