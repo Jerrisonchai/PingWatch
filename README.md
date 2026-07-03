@@ -33,3 +33,6 @@ You can (and should) add a custom description for each target by using a **comma
 ServerName01, Application Host
 \\192.168.2.4\purchase, Shared Purchasing Drive
 10.0.0.99
+```
+<img width="825" height="538" alt="image" src="https://github.com/user-attachments/assets/b250814a-6b6f-4431-9f53-f1107d679759" />
+
