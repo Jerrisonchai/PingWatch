@@ -1,0 +1,6 @@
+https://www.google.com, Working Public Website
+C:\Windows, Working Local Folder
+127.0.0.1, Working Localhost Ping
+192.0.999.99, Failing Fake IP Address
+\\FakeServer01\SecretData, Failing Network Folder
+http://this-website-is-fake.local, Failing Internal Website
